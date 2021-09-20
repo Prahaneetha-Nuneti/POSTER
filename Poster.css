@@ -1,0 +1,70 @@
+.mystyle{
+	width:50px;
+	height:50px;
+}
+.mystyle1{
+	width:40px;
+	height:40px;
+}
+*{
+  box-sizing: border-box;
+}
+.box3{
+	float:left;
+	height:120px;
+	width:100%;
+	padding:20 20 0 30;
+	margin:0;
+}
+.box6{
+	float:left;
+	height:200px;
+	width:100%;
+	padding:0 40 0 0;
+    margin-top:20px;
+}
+.box4{
+  float: left;
+  width: 50%;
+  padding:0 30 30 30;
+  height:250px;
+  margin-top:20px;
+  overflow: break-word;
+  line-height:17px;
+}
+.box{
+  float: left;
+  width: 50%;
+  padding:30 0 0 0;
+  height:400px;
+  margin-top:20px;
+  overflow: break-word;
+  line-height:17px;
+}
+.box1
+{
+	float:left;
+	height:120px;
+	width:50%;
+	padding:40 0 10 30;
+	overflow:break-word;
+	margin-top:20px;
+}
+.clearfix::after {
+  content:"";
+  clear: both;
+  display: table;
+}
+.column 
+{
+  float: left;
+  width: 30%;
+  padding-left:60px;
+  padding-top:20px
+  padding-right:10px;
+}
+.row::after {
+  content:"";
+  clear:both;
+  display:table;
+}
